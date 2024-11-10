@@ -1,0 +1,100 @@
+:root {
+  --praymriy-color: #ffc;
+  --grey-color: #7dba28;
+  /* bcg-color */
+  --white-bg-color: #ffffff;
+  --black-bg-color: black;
+  --gray-bg-color: #454545;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 1px solid var(--praymriy-color);
+  outline-offset: 2px;
+}
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "roboto", "sanserif";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  font-size: 2.5rem;
+}
+ul,
+li {
+  list-style: none;
+}
+h1 {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.36;
+  margin: 0;
+}
+.father {
+  background-image: url(/IT/images/png/blue-technology-background-with-digital-tech_573056-3477.avif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.header-ul {
+  display: flex;
+  width: 100%;
+  height: 6rem;
+  /* background-color: var(--gray-bg-color); */
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  text-shadow: 600px black;
+}
+.header-ul-li {
+  color: var(--grey-color);
+}
+
+/* main */
+
+.main-grid-ul-li-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+  /* background-color: var(--gray-bg-color); */
+  border-radius: 5rem;
+  /* opacity: 0.35; */
+  border: 1rem solid var(--white-bg-color);
+  text-transform: uppercase;
+  color: var(--praymriy-color);
+}
+
+/* footer */
+footer {
+  width: 100%;
+  /* background-color: var(--gray-bg-color); */
+}
+.footer-div {
+  width: 100%;
+  /* background-color: var(--gray-bg-color); */
+}
+.footer-ul-li {
+  /* background-color: var(--gray-bg-color); */
+  color: var(--white-bg-color);
+}
+.header-nav-ul-li {
+  color: var(--white-bg-color);
+  /* background-color: var(--gray-bg-color); */
+}
+.main-grid-ul-li :hover {
+  text-transform: uppercase;
+}
